@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tipCalculator.css">
+   <!--  -->
+    <title>Document</title>
+         
+</head>
+<body>
+          <div id="main-div">
+              <div id="child-div">
+                  <h1 id="heading">Your Bill</h1>
+                 <div id="input-div">
+                        <span id="billText">Total Bill</span>
+                        <span id="doller-sign">$</span>
+                        <input type="text" id="billTotalInput" placeholder="0.00" maxlength="10"  onkeyup="calculate()">
+                        <span id="tipText">Tip</span>
+                        <span id="tip-doller-percentage">%</span>
+                        <input type="text" id="tipTextInput" placeholder="0.00" onkeyup="calculate()">
+                  </div>
+                  <div id="second-child-div">
+                    <div id="first-child-div-element">
+                        <span id="peopleText">people</span><br>
+                        <abbr title="Increase the number of people's to split the bill between them"><button id="plusButton" onclick="increase()">+</button></abbr>
+                        <span id="span-text">1</span>
+                        <abbr title="Decrease the number of people's to split the bill between them"><button id="minusButton" onclick="decrease()">-</button></abbr>
+                     </div>
+                    <div id="second-child-div-element">
+                        <span id="total-per-person">Total bill par person</span>
+                        <span id="doller-sign-total-bill">$</span>
+                        <span id="total-bill-per-person" placeholder="0.00"><br></span>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+                            <script type="text/javascript" src='tipCalculator.js'></script>
+        </body>
+</html>

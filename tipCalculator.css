@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+ }   
+
+ body{
+    background-color:#8990ec;
+ }
+#main-div{
+    width:100%;
+    height:100%;
+ }
+
+ #child-div{
+    width:32%;
+    height:35em;
+    background-color: #272639;
+    margin: auto;
+    margin-top:3em;
+    border-radius: 1.5em;
+    position: relative;
+ }
+
+ #heading{
+    text-align: center;
+    line-height: 3em;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+#input-div{
+    height:10em;
+    position: absolute;
+    top:20%;
+    display:grid;
+    margin-left:2em;
+    
+    
+}
+input{
+    border:none;
+    background-color: #353959;
+    border-radius: 1.5rem;
+    width:21.5em;
+    max-width:21.5em;
+    height:2em;
+    padding-left:2em;
+    font-weight: 400;
+    font-size:17px;
+    color:white;
+    
+}
+
+
+
+span{
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#billText,
+#tipText{
+    position:relative;
+    top:1em;
+}
+
+#doller-sign{
+ width:0.6em;
+position: relative;
+top:1.8em;
+left:1em; 
+
+}
+
+#tip-doller-percentage{
+    width:0.6em;
+position: relative;
+top:1.8em;
+left:0.8em; 
+
+}
+
+#span-text{
+    font-size: 20px;
+}
+
+
+#second-child-div{
+    width:90%;
+    height:7em;
+    position: absolute;
+    top:53%;
+    left:7%;
+    display: flex;
+    flex-direction: row;
+}
+
+#first-child-div-element{
+   width:50%;
+   height:7em;
+   line-height:3em;
+}
+
+#peopleText{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+#second-child-div-element{
+    width:50%;
+    height:7em;
+    line-height: 3em;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+button{
+    width:2em;
+    height:2em;
+    border-radius: 5em;
+    background-color: #8990ec;
+    border: none;
+
+}
+
+#total-bill-per-person{
+    width:2em;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    
+}
+
+
+#doller-sign-total-bill{
+    font-size: 1.5em;
+    
+}
+
+

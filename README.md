@@ -1,1 +1,1 @@
-# Bill payment app for restaurant 
+# Tip calculating app 
